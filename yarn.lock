@@ -100,15 +100,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primeuix/styled@npm:^0.7.4":
-  version: 0.7.4
-  resolution: "@primeuix/styled@npm:0.7.4"
-  dependencies:
-    "@primeuix/utils": "npm:^0.6.1"
-  checksum: 10c0/e1ed3e6c4a36bd5a6722b8fcd3e79d9fd60a36f174e5d822fd2fa0ecace49508c548228462ff8033961e1aa1bece6ec87c04879097c3691044314629120e968c
-  languageName: node
-  linkType: hard
-
 "@primeuix/styled@npm:^1.0.0":
   version: 1.0.0
   resolution: "@primeuix/styled@npm:1.0.0"
@@ -128,19 +119,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primeuix/themes@npm:^2.0.2":
-  version: 2.0.3
-  resolution: "@primeuix/themes@npm:2.0.3"
+"@primeuix/themes@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@primeuix/themes@npm:3.0.1"
   dependencies:
-    "@primeuix/styled": "npm:^0.7.4"
-  checksum: 10c0/4e51aa7ce0a73946b5605c485c281e3e5d82937efa5da1881e31aaae810ccbef34e29b888d24823428ad3303fa2825c99a88dfcb53718e15bfee18b63a12a53d
-  languageName: node
-  linkType: hard
-
-"@primeuix/utils@npm:^0.6.1":
-  version: 0.6.4
-  resolution: "@primeuix/utils@npm:0.6.4"
-  checksum: 10c0/ee5f284c1cd3a5070c5eed6c45d803313574e0db95c45b6fc822ddb76416bbeb86986105ec4912a9d9964cb9bf7736e4b5f316c5406ec3fc16ba8012ba91a9fe
+    "@primeuix/styled": "npm:^1.0.0"
+  checksum: 10c0/54a6d99ce61128e7542218fa3759e4abc8758b6eac243319f7b3776336df712b08d3ce4ff6552553359dedce7c820c0a46299278e6effbd31e88a07adb1ca436
   languageName: node
   linkType: hard
 
@@ -171,16 +155,6 @@ __metadata:
     "@primeuix/utils": "npm:^0.8.0"
     "@primevue/core": "npm:5.0.1"
   checksum: 10c0/483d2a232e57b4e0228c2f857b2208285f6fdb50ec38eb4edf2fcd0ad1f482c3146ad1552a034c8a7f3dffc8c4bda6327fcf90a428eb3039b1261c0765fb79a9
-  languageName: node
-  linkType: hard
-
-"@primevue/themes@npm:^4.5.4":
-  version: 4.5.4
-  resolution: "@primevue/themes@npm:4.5.4"
-  dependencies:
-    "@primeuix/styled": "npm:^0.7.4"
-    "@primeuix/themes": "npm:^2.0.2"
-  checksum: 10c0/8d1babbd7aed5b51221853863a8e86295cd77e6855463126705e3260b3ee47ce2a70c0f673414faf1c5c63094910ed2f980f4f3802611561a17b23ca2e355a01
   languageName: node
   linkType: hard
 
@@ -474,7 +448,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-vue3-repos-website@workspace:."
   dependencies:
-    "@primevue/themes": "npm:^4.5.4"
+    "@primeuix/themes": "npm:^3.0.1"
     "@vitejs/plugin-vue": "npm:^6.0.9"
     katex: "npm:^0.18.9"
     primevue: "npm:^5.0.1"

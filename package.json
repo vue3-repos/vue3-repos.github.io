@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@primevue/themes": "^4.5.4",
+    "@primeuix/themes": "^3.0.1",
     "katex": "^0.18.9",
     "primevue": "^5.0.1",
     "vue": "^3.5.43",

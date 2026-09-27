@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
-import VueGtag from 'vue-gtag'
+import { createGtag } from 'vue-gtag'
 
 import PrimeVue from 'primevue/config'
-import Aura from '@primevue/themes/aura'
+import Aura from '@primeuix/themes/aura'
 
 import Vue3Katex from 'vue3-katex'
 import 'katex/dist/katex.min.css'
@@ -21,9 +21,7 @@ app.use(Vue3Katex, {
     //... Define globally applied KaTeX options here
   },
 })
-app.use(VueGtag, {
-  config: { 
-    id: 'G-B10R9JKHCQ',
-  }
-})
+app.use(createGtag({
+  tagId: 'G-B10R9JKHCQ',
+}))
 app.mount('#app')
