@@ -7,7 +7,7 @@ on:
 
 jobs:
   github-deploy:
-    if: github.repository == 'vue3-plugins/vue3-plugins.github.io'
+    if: github.repository == 'vue3-repos/vue3-repos.github.io'
     name: Deploying website
     runs-on: ubuntu-22.04
     permissions:
