@@ -10,7 +10,7 @@ More libraries from the organisation will be added over time.
 
 ## Development
 
-The site is built with [Vite](https://vite.dev/) and uses [PrimeVue](https://primevue.org/) for styling.
+The site is built with [Vite](https://vite.dev/).
 
 ```bash
 yarn install

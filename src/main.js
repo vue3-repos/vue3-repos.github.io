@@ -1,20 +1,12 @@
 import { createApp } from 'vue'
 import { createGtag } from 'vue-gtag'
 
-import PrimeVue from 'primevue/config'
-import Aura from '@primeuix/themes/aura'
-
 import Vue3Katex from 'vue3-katex'
 import 'katex/dist/katex.min.css'
 
 import App from './App.vue'
 
 const app = createApp(App)
-app.use(PrimeVue, {
-  theme: {
-    preset: Aura
-  }
-})
 app.use(Vue3Katex, {
   mhchem: true,
   globalOptions: {

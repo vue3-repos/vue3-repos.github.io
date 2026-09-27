@@ -63,101 +63,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primeicons/core@npm:8.0.2":
-  version: 8.0.2
-  resolution: "@primeicons/core@npm:8.0.2"
-  dependencies:
-    "@primeuix/utils": "npm:^0.8.0"
-  checksum: 10c0/bf13ae9a563cceab4d1c341636a3d37d1950e6bb49c78e6996ff25694f509898590db0d2023694218cf8061f3e5901c71623988f42d7efc630ed73a58564cd50
-  languageName: node
-  linkType: hard
-
-"@primeicons/vue@npm:^8.0.0":
-  version: 8.0.2
-  resolution: "@primeicons/vue@npm:8.0.2"
-  dependencies:
-    "@primeicons/core": "npm:8.0.2"
-    "@primeuix/utils": "npm:^0.8.0"
-  peerDependencies:
-    vue: ^3
-  checksum: 10c0/6ecd6cbfa761660a1240355890334b77f4ef06abf338c1b79cf77c9652dc0d52e31ec8e88107ecca010bba67a238971e50f088f9f497239cdd2d1dd9d9258c3f
-  languageName: node
-  linkType: hard
-
-"@primeui/license-manager@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "@primeui/license-manager@npm:1.1.0"
-  checksum: 10c0/34b9b582cb34f2c8a50ccf45e811de68ad6594423aa636e7f0d302fb264433d1b2c296be94e09372d4b7d9a5434f14c062d8af2d3187db845546bf65d118ce08
-  languageName: node
-  linkType: hard
-
-"@primeuix/motion@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@primeuix/motion@npm:1.0.0"
-  dependencies:
-    "@primeuix/utils": "npm:^0.8.0"
-  checksum: 10c0/83adcdb15ab469f0c376ff9ee26777c80d5bf6a045c05f998be9fbafa145f86c8a23df4da3df57444a2f437770436d2bd197a590c94fa4fab8fedb3bfe873fa1
-  languageName: node
-  linkType: hard
-
-"@primeuix/styled@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@primeuix/styled@npm:1.0.0"
-  dependencies:
-    "@primeui/license-manager": "npm:^1.0.0"
-    "@primeuix/utils": "npm:^0.8.0"
-  checksum: 10c0/26fe4d23206738ece2ff5473777d752f3a8d77010928e48d0f945b4ef0656015ab3207c1f8b246b701583de982380e92de8ab85473f3aa05a146df2961233a9b
-  languageName: node
-  linkType: hard
-
-"@primeuix/styles@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "@primeuix/styles@npm:3.0.1"
-  dependencies:
-    "@primeuix/styled": "npm:^1.0.0"
-  checksum: 10c0/965782d5721328ae252201921d0a52a9c9f71f14c10f014af4fd7a4f71420e111263f9400bbeb4189c8e218d41472838d9912e4d1876d894ef513f27bf544c2d
-  languageName: node
-  linkType: hard
-
-"@primeuix/themes@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@primeuix/themes@npm:3.0.1"
-  dependencies:
-    "@primeuix/styled": "npm:^1.0.0"
-  checksum: 10c0/54a6d99ce61128e7542218fa3759e4abc8758b6eac243319f7b3776336df712b08d3ce4ff6552553359dedce7c820c0a46299278e6effbd31e88a07adb1ca436
-  languageName: node
-  linkType: hard
-
-"@primeuix/utils@npm:^0.8.0":
-  version: 0.8.2
-  resolution: "@primeuix/utils@npm:0.8.2"
-  checksum: 10c0/57f70334fadbf6cdfe38b8bf5da9f408fe7f7353a5dc00cf8d45fb8a024828997ff49a746f123fd48d0f04707454b7bcd9aa6c710d5e819af60392419f790967
-  languageName: node
-  linkType: hard
-
-"@primevue/core@npm:5.0.1":
-  version: 5.0.1
-  resolution: "@primevue/core@npm:5.0.1"
-  dependencies:
-    "@primeui/license-manager": "npm:^1.0.0"
-    "@primeuix/styled": "npm:^1.0.0"
-    "@primeuix/utils": "npm:^0.8.0"
-  peerDependencies:
-    vue: ^3.5.0
-  checksum: 10c0/86a74449b6dbe420ed7098a127ac7b12a7ab2c33ffe55b1b29a5bea00c7b711c5315f9fb5659513601c87d1e6eb2bdd5f7ec63b71eefb8cfecee62b1954f4ada
-  languageName: node
-  linkType: hard
-
-"@primevue/icons@npm:5.0.1":
-  version: 5.0.1
-  resolution: "@primevue/icons@npm:5.0.1"
-  dependencies:
-    "@primeuix/utils": "npm:^0.8.0"
-    "@primevue/core": "npm:5.0.1"
-  checksum: 10c0/483d2a232e57b4e0228c2f857b2208285f6fdb50ec38eb4edf2fcd0ad1f482c3146ad1552a034c8a7f3dffc8c4bda6327fcf90a428eb3039b1261c0765fb79a9
-  languageName: node
-  linkType: hard
-
 "@rolldown/binding-android-arm-eabi@npm:1.2.11":
   version: 1.2.11
   resolution: "@rolldown/binding-android-arm-eabi@npm:1.2.11"
@@ -448,10 +353,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-vue3-repos-website@workspace:."
   dependencies:
-    "@primeuix/themes": "npm:^3.0.1"
     "@vitejs/plugin-vue": "npm:^6.0.9"
     katex: "npm:^0.18.9"
-    primevue: "npm:^5.0.1"
     vite: "npm:^8.3.1"
     vue: "npm:^3.5.43"
     vue-gtag: "npm:^3.7.1"
@@ -729,22 +632,6 @@ __metadata:
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
   checksum: 10c0/9fe44215a6628d89c8a75184b92f5b2f77e16f9e5b13b39b9009bb7e8e6eccddf82c8854bae922db1f17ace6ef3445073fe38abff513caeb03e5285b1b55620a
-  languageName: node
-  linkType: hard
-
-"primevue@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "primevue@npm:5.0.1"
-  dependencies:
-    "@primeicons/vue": "npm:^8.0.0"
-    "@primeui/license-manager": "npm:^1.0.0"
-    "@primeuix/motion": "npm:^1.0.0"
-    "@primeuix/styled": "npm:^1.0.0"
-    "@primeuix/styles": "npm:^3.0.0"
-    "@primeuix/utils": "npm:^0.8.0"
-    "@primevue/core": "npm:5.0.1"
-    "@primevue/icons": "npm:5.0.1"
-  checksum: 10c0/9a1f888267e0f4da60c232bebd16e215e1950c5c5017feaa23da0af3634aaa12d8e269ab640c4c115e8d6b45b9159d56bc74ae16b4a3917c2717cda6cd438e21
   languageName: node
   linkType: hard
 
